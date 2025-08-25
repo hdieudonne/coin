@@ -1,10 +1,10 @@
 # HelloCore Hardhat Project
 
-This is my first sample smart contract built using Solidity and hardhat setup for compile, test, and deploy. SOme of Contract are `` HelloCore.sol ``
+This is my first sample smart contract, built using Solidity and Hardhat. It is set up for compiling, testing, and deploying. Some of the contracts included are: `` HelloCore.sol ``
 
-## what to do first
+## steps to follow
 
-* Install node modules with packahe_lock.json
+* Install packages
     ```
     npm install
     ```
@@ -13,12 +13,12 @@ This is my first sample smart contract built using Solidity and hardhat setup fo
     ```shell
     touch .env
     ```
-## Environment variables
+## Environment variables(env)
 ```
 PRIVATE_KEY=5a4f**************************************************************
 ```
 
-### Run comile command
+### Run compile command
 ```
     npx hardhat compile
 ```
@@ -28,13 +28,13 @@ PRIVATE_KEY=5a4f**************************************************************
     npx hardhat test
 ```
 
-### Interact with the HardHat
+### Running deployment script
 
 ```
 npx hardhat run scripts/deploy.js --network coretestnet
 ```
 
-## Images showing how it will look like
+## Images showing the output
 
 ![deploy](./coin.JPG)
 
