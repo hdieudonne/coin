@@ -23,10 +23,6 @@ PRIVATE_KEY=5a4f**************************************************************
     npx hardhat compile
 ```
 
-### Run test command
-```
-    npx hardhat test
-```
 
 ### Running deployment script
 
@@ -38,6 +34,6 @@ npx hardhat run scripts/deploy.js --network coretestnet
 
 ![deploy](./coin.JPG)
 
-![Test](./coins.JPG)
+![deploy](./coins.JPG)
 
 ![Account](./account.JPG)
